@@ -5,7 +5,7 @@ SuperCollider client for Freesound. Requires curl.
 
 Examples:
 
-´´´
+```
 Freesound2.api_key="<your_api_key_here>";
 
 
@@ -94,4 +94,4 @@ FS2Sound.contentSearch(t:'.lowlevel.pitch.mean:600',f:'.lowlevel.pitch_instantan
 });
 
 ~buf.play;
-´´´
+```
